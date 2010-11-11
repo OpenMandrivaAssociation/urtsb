@@ -4,7 +4,7 @@ Name:           urtsb
 Version:        0.4
 Release:        %mkrel 1
 License:        GPLv3
-Group:          Amusements/Games
+Group:          Games/Other
 Source0:        http://urtsb.googlecode.com/files/%{oname}-%{version}.tar.gz
 Url:            http://code.google.com/p/%{name}/
 BuildRequires:  python-devel >= 2.6
@@ -22,8 +22,8 @@ Features:
 * Display server details - players (with kills, ping) and server vars
 * Manage favorites - add/remove servers to a favorites list
 * Buddy list - manage a buddy list and search servers your buddies are playing 
-  on (note: the search is case sensitive!). Supports substrings. For example if 
-  you add only the string [clan-tag] a buddy search will return all servers 
+  on (note: the search is case sensitive!). Supports sub-strings. For example 
+  if you add only the string [clan-tag] a buddy search will return all servers
   where players with [clan-tag] in their name are playing. Good to see where 
   your clan m8s are playing :)
 * of course launching Urban Terror with automatic connection to a selected 
