@@ -1,3 +1,4 @@
+%define debug_package	%{nil}
 %define         oname UrTSB
 Summary:        Game Server Browser for the FPS Urban Terror
 Name:           urtsb
@@ -9,7 +10,6 @@ Source0:        http://urtsb.googlecode.com/files/%{oname}-%{version}.tar.gz
 Url:            http://code.google.com/p/%{name}/
 BuildRequires:  python-devel >= 2.6
 Requires:       pygtk2.0
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 UrTSB is a Game Server Browser for the First Person Shooter game Urban Terror 
@@ -67,13 +67,10 @@ Categories=ArcadeGame;
 EOF
 
 
-%find_lang %name
+#%find_lang %name --all-name
 
-%clean 
-rm -rf %{buildroot} 
-
-%files -f %{name}.lang
-%defattr(-,root,root,-)
+%files
+# -f %{name}.lang
 %{_bindir}/%{name}
 %{python_sitelib}/*
 %{_datadir}/applications/%{name}.desktop
