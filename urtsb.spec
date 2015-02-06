@@ -3,7 +3,7 @@
 Summary:        Game Server Browser for the FPS Urban Terror
 Name:           urtsb
 Version:        0.4
-Release:        %mkrel 1
+Release:        2
 License:        GPLv3
 Group:          Games/Other
 Source0:        http://urtsb.googlecode.com/files/%{oname}-%{version}.tar.gz
