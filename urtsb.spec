@@ -7,7 +7,7 @@ Release:        2
 License:        GPLv3
 Group:          Games/Other
 Source0:        http://urtsb.googlecode.com/files/%{oname}-%{version}.tar.gz
-Url:            http://code.google.com/p/%{name}/
+Url:            https://code.google.com/p/%{name}/
 BuildRequires:  python-devel >= 2.6
 Requires:       pygtk2.0
 
